@@ -1,0 +1,1 @@
+# typro-theme-obsidian
