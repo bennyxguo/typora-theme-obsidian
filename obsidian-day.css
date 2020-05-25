@@ -275,7 +275,7 @@ code {
     var(--code-gradient-light),
     var(--code-gradient-dark)
   );
-  color: #000;
+  color: #000 !important;
 }
 
 hr {
@@ -346,10 +346,11 @@ th {
 }
 
 #write h1 span {
-  background: linear-gradient(to right, #0ed2f7, #0052d4) !important;
+  color: #0052d4;
+  /* background: linear-gradient(to right, #0ed2f7, #0052d4) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
-  -webkit-box-decoration-break: clone !important;
+  -webkit-box-decoration-break: clone !important; */
 }
 
 #write h1::before,
@@ -377,7 +378,7 @@ th {
   font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
-  color: var(--secondary);
+  color: #0052d4;
 }
 
 #write h1::before {
@@ -389,7 +390,6 @@ th {
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
-  color: #0052d4;
 }
 
 #write h2::before {
@@ -401,7 +401,6 @@ th {
   font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
-  color: #0052d4;
 }
 
 #write h3::before {
@@ -413,7 +412,6 @@ th {
   font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
-  color: #0052d4;
 }
 
 #write h4::before {
@@ -425,7 +423,6 @@ th {
 #write h6 {
   font-size: 1.4rem;
   margin: 0;
-  color: #0052d4;
 }
 
 #write h5::before,
@@ -456,6 +453,10 @@ th {
 #write ul > li > * {
   color: #282a36;
   margin: 0;
+}
+
+#write ol > li code {
+  color: #282a36 !important;
 }
 
 #write ol > li > *:not(ol):not(ul),
