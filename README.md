@@ -1,12 +1,12 @@
-# Type Obsidian Theme
+# Typora Obsidian Theme
 
 v1.x | ᴅᴇsɪɢɴᴇᴅ & ᴄᴏᴅᴇᴅ ʙʏ ᴛʀɪᴅɪᴀᴍᴏɴᴅ
 
 > A theme for the wonderful [Typora](https://typora.io), inspired by [Hexo-theme-obsidian](https://tridiamond.me)'s colors and elegancy.
 
-![Latest Release Version](https://img.shields.io/github/v/release/TriDiamond/typora-theme-obsidian)
-![Latest Release Date](https://img.shields.io/github/release-date/TriDiamond/typora-theme-obsidian)
-![License](https://img.shields.io/github/license/TriDiamond/typora-theme-obsidian)
+![Latest Release Version](https://img.shields.io/github/v/release/TriDiamond/typro-theme-obsidian)
+![Latest Release Date](https://img.shields.io/github/release-date/TriDiamond/typro-theme-obsidian)
+![License](https://img.shields.io/github/license/TriDiamond/typro-theme-obsidian)
 
 Code fence themes are adapted from CodeMirror's _3024 Day_ and _Dracula_ themes for Obsidian night and day, respectively.
 
