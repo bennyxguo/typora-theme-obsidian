@@ -470,21 +470,8 @@ th {
 }
 
 #write strong {
-  position: relative;
-  z-index: 2;
-}
-
-#write strong:after {
-  position: absolute;
-  content: "";
-  z-index: -1;
-  top: 45%;
-  left: -0.1em;
-  right: -0.1em;
-  bottom: 0;
-  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-  background: var(--secondary);
-  opacity: 0.25;
+  padding: 0 0.1rem;
+  border-bottom: 3px rgba(14, 210, 246, 0.6) solid;
 }
 
 #write a {
@@ -957,6 +944,10 @@ th {
     "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 1.2em;
   color: var(--secondary);
+}
+
+#typora-sidebar .file-tree-node.active > .file-node-content {
+  color: var(--secondary) !important;
 }
 
 #typora-sidebar #file-library-search-input {
