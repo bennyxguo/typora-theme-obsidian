@@ -14,7 +14,7 @@ Code fence themes are adapted from CodeMirror's _3024 Day_ and _Dracula_ themes 
 
 ## Installation
 
-Decompress the latest release from [here](https://github.com/TriDiamond/typora-theme-obsidian/releases). In Typora's preferences windows, go to `General -> Themes` and click on `Open Theme Folder`. Drop all the decompressed files and folders in there, and enjoy!~
+Decompress the latest release from [here](https://github.com/TriDiamond/typro-theme-obsidian/releases). In Typora's preferences windows, go to `General -> Themes` and click on `Open Theme Folder`. Drop all the decompressed files and folders in there, and enjoy!~
 
 ## Preview
 
